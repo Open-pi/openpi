@@ -3,7 +3,7 @@ import { ref } from 'vue'
 </script>
 
 <template>
-  <h1>Mission Statement</h1>
+  <h2>Mission Statement</h2>
 
   <p>
     We believe that...
@@ -11,4 +11,7 @@ import { ref } from 'vue'
 </template>
 
 <style scoped>
+* {
+  text-align: left;
+}
 </style>

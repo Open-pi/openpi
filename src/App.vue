@@ -8,7 +8,7 @@ import MissionStatement from './components/MissionStatement.vue'
 <template>
   <img alt="openpi-log" src="./assets/logo.png" />
   <Title msg="Welcome to Openpi" />
-  <MissionStatement/>
+  <!-- Comment<MissionStatement/> -->
 </template>
 
 <style>
