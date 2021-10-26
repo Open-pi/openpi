@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <h1>{{ msg }}</h1>
-  <h2>This Web Page is still under construction</h2>
+  <p>This Web Page is still under construction</p>
   <img alt="underconstruction" src="../assets/under-construction.png"/>
 </template>
 
