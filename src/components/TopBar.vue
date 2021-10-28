@@ -61,13 +61,13 @@ a {
 
 .nav-item {
   border-radius: 50px;
-  border: 2px solid #42b983;
+  border: 2px solid var(--purple);
   color: black;
   transition: background-color 65ms ease-in-out;
 }
 
 .nav-item:hover {
-  background-color: #42b983;
+  background-color: var(--purple);
   color: white;
 }
 

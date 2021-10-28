@@ -11,7 +11,7 @@ import TextIcon from './TextIcon.vue'
 
 <style scoped>
 h1 {
-  color: #42b983;
+  color: var(--purple);
 }
 
 img {

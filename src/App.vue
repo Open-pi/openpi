@@ -25,6 +25,14 @@ import TopBar from './components/TopBar.vue'
   font-family: "Inter";
   src: url(./assets/fonts/Inter/Inter-Regular.ttf)
 }
+
+:root {
+  --purple: #887BB0;
+  --spearmint: #85D2D0;
+  --rosequartz: #F4B9B8;
+  --yellow: #F4B9B8;
+}
+
 #app {
   font-family: Inter, Metropolis;
   -webkit-font-smoothing: antialiased;
