@@ -10,7 +10,6 @@ import { ref } from 'vue'
 <style scoped>
 
 #open, #pi {
-  color: black;
   font-family: Metropolis;
   font-size: 25px;
 }

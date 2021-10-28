@@ -1,14 +1,10 @@
 <script setup>
 import { ref } from 'vue'
-
-defineProps({
-  msg: String
-})
-
+import TextIcon from './TextIcon.vue'
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>Welcome to <TextIcon/></h1>
   <p>This Web Page is still under construction</p>
   <img alt="underconstruction" src="../assets/under-construction.png"/>
 </template>

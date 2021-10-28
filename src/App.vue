@@ -7,9 +7,11 @@ import TopBar from './components/TopBar.vue'
 </script>
 
 <template>
-  <TopBar/>
-  <img alt="openpi-log" src="./assets/logo.png" />
-  <Title msg="Welcome to Openpi" />
+  <div class="topbar">
+    <TopBar/>
+  </div>
+
+  <Title/>
   <!-- Comment<MissionStatement/> -->
 </template>
 
@@ -36,5 +38,9 @@ h1,
 h2,
 h3 {
   font-family: Metropolis;
+}
+
+.topbar {
+  margin-bottom: 200px;
 }
 </style>
