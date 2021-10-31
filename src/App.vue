@@ -28,9 +28,18 @@ import TopBar from './components/TopBar.vue'
 
 :root {
   --purple: #887BB0;
+  --dark-purple: #342837;
   --spearmint: #85D2D0;
   --rosequartz: #F4B9B8;
-  --yellow: #F4B9B8;
+  --yellow: #FFF4BD;
+  background-image: url('./assets/mountains-1412683.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
 }
 
 #app {

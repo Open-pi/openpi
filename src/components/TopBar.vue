@@ -57,18 +57,26 @@ a {
 .logo span {
   text-align: left;
   margin: auto 0 0 0;
+  color: var(--dark-purple);
+  font-size: 25px;
 }
 
 .nav-item {
   border-radius: 50px;
-  border: 2px solid var(--purple);
-  color: black;
-  transition: background-color 65ms ease-in-out;
+  color: white;
+  background-color: var(--purple);
+  transition: background-color 70ms ease-in-out;
+  transition: border 70ms ease-in-out;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 }
 
 .nav-item:hover {
-  background-color: var(--purple);
-  color: white;
+  color: var(--dark-purple);
+  background-color: white;
+  border: 3px solid var(--rosequartz);
 }
 
 </style>

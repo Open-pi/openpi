@@ -11,7 +11,7 @@ import { ref } from 'vue'
 
 #open, #pi {
   font-family: Metropolis;
-  font-size: 25px;
+  --font-size: 25px;
 }
 
 #pi {

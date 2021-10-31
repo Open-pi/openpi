@@ -1,17 +1,30 @@
 <script setup>
 import { ref } from 'vue'
 import TextIcon from './TextIcon.vue'
+import BubleLinks from './BubbleLinks.vue'
 </script>
 
 <template>
-  <h1>Welcome to <TextIcon/></h1>
-  <p>This Web Page is still under construction</p>
-  <img alt="underconstruction" src="../assets/under-construction.png"/>
+  <h1><span class="welcome">Welcome to </span><span class="icon"><TextIcon/></span></h1>
+  <p>Check out our open-source projects :)</p>
+  <BubleLinks/>
 </template>
 
 <style scoped>
 h1 {
   color: var(--purple);
+  font-size: 40px;
+}
+
+.icon {
+  font-size: 40px;
+  color: var(--yellow);
+  color: white;
+  background-color: var(--purple);
+}
+
+.welcome {
+  background-color: white;
 }
 
 img {
