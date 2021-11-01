@@ -7,11 +7,14 @@ import TopBar from './components/TopBar.vue'
 </script>
 
 <template>
-  <div class="topbar">
-    <TopBar/>
+  <div class="landing-screen">
+    <div class="topbar">
+      <TopBar/>
+    </div>
+
+    <Title/>
   </div>
 
-  <Title/>
   <!-- Comment<MissionStatement/> -->
 </template>
 
@@ -32,14 +35,6 @@ import TopBar from './components/TopBar.vue'
   --spearmint: #85D2D0;
   --rosequartz: #F4B9B8;
   --yellow: #FFF4BD;
-  background-image: url('./assets/mountains-1412683.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
 }
 
 #app {
@@ -48,7 +43,20 @@ import TopBar from './components/TopBar.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
+}
+
+.landing-screen {
+  padding-top: 25px;
+  height: 100vh;
+
+  background-image: url('./assets/mountains-1412683.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
 }
 
 h1,

@@ -10,10 +10,10 @@ import TextIcon from './TextIcon.vue'
     </div>
 
     <a class="menu grid-items nav-item">
-      <span>Home Page</span>
+      <span>Home</span>
     </a>
 
-    <a class="projects grid-items nav-item">
+    <a class="projects grid-items nav-item" href="#members">
       <span>Projects</span>
     </a>
 
@@ -30,11 +30,13 @@ import TextIcon from './TextIcon.vue'
 
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: 7fr 1fr 1fr 1fr;
+  padding-right: 70px;
 
 }
 
@@ -62,9 +64,9 @@ a {
 }
 
 .nav-item {
+  font-family: Metropolis;
   border-radius: 50px;
-  color: white;
-  background-color: var(--purple);
+  color: black;
   transition: background-color 70ms ease-in-out;
   transition: border 70ms ease-in-out;
   -webkit-user-select: none;  
@@ -74,8 +76,8 @@ a {
 }
 
 .nav-item:hover {
-  color: var(--dark-purple);
-  background-color: white;
+  color: white;
+  background-color: var(--purple);
   border: 3px solid var(--rosequartz);
 }
 
