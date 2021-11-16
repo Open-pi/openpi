@@ -1,13 +1,15 @@
 <script setup>
-import { ref } from 'vue'
-import TextIcon from './TextIcon.vue'
-import BubleLinks from './BubbleLinks.vue'
+import TextIcon from "./TextIcon.vue";
+import BubleLinks from "./BubbleLinks.vue";
 </script>
 
 <template>
-  <h1><span class="welcome">Welcome to </span><span class="icon"><TextIcon/></span></h1>
+  <h1>
+    <span class="welcome">Welcome to </span
+    ><span class="icon"><TextIcon /></span>
+  </h1>
   <p>Check out our open-source projects :)</p>
-  <BubleLinks/>
+  <BubleLinks />
 </template>
 
 <style scoped>

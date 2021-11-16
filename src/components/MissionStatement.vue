@@ -1,13 +1,9 @@
-<script setup>
-import { ref } from 'vue'
-</script>
+<script setup></script>
 
 <template>
   <h2>Mission Statement</h2>
 
-  <p>
-    We believe that...
-  </p>
+  <p>We believe that...</p>
 </template>
 
 <style scoped>

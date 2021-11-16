@@ -1,18 +1,22 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import Title from './components/Title.vue'
-import MissionStatement from './components/MissionStatement.vue'
-import TopBar from './components/TopBar.vue'
+import Title from "./components/Title.vue";
+//import MissionStatement from './components/MissionStatement.vue'
+import TopBar from "./components/TopBar.vue";
+import Projects from "./components/Projects.vue";
 </script>
 
 <template>
   <div class="landing-screen">
     <div class="topbar">
-      <TopBar/>
+      <TopBar />
     </div>
 
-    <Title/>
+    <Title />
+  </div>
+  <div id="projects" class="projects">
+    <Projects />
   </div>
 
   <!-- Comment<MissionStatement/> -->
@@ -21,20 +25,22 @@ import TopBar from './components/TopBar.vue'
 <style>
 @font-face {
   font-family: "Metropolis";
-  src: url(./assets/fonts/Metropolis/Metropolis-Bold.otf)
+  src: url(./assets/fonts/Metropolis/Metropolis-Bold.otf);
 }
 
 @font-face {
   font-family: "Inter";
-  src: url(./assets/fonts/Inter/Inter-Regular.ttf)
+  src: url(./assets/fonts/Inter/Inter-Regular.ttf);
 }
 
 :root {
-  --purple: #887BB0;
+  --purple: #887bb0;
+  --darker-purple: #463440;
   --dark-purple: #342837;
-  --spearmint: #85D2D0;
-  --rosequartz: #F4B9B8;
-  --yellow: #FFF4BD;
+  --light-purple: #9c98c2;
+  --spearmint: #85d2d0;
+  --rosequartz: #f4b9b8;
+  --yellow: #fff4bd;
 }
 
 #app {
@@ -49,14 +55,18 @@ import TopBar from './components/TopBar.vue'
   padding-top: 25px;
   height: 100vh;
 
-  background-image: url('./assets/mountains-1412683.svg');
+  background-image: url("./assets/mountains-1412683.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  --background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.projects {
+  background-color: var(--light-purple);
 }
 
 h1,

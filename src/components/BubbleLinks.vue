@@ -1,11 +1,9 @@
-<script setup>
-import { ref } from 'vue'
-</script>
+<script setup></script>
 
 <template>
   <div class="links">
     <a class="bubble github-link" href="https://github.com/Open-pi">
-      <img class="icon" src="../assets/github.svg" alt="github-icon">
+      <img class="icon" src="../assets/github.svg" alt="github-icon" />
     </a>
   </div>
 </template>

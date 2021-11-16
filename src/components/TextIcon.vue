@@ -1,19 +1,11 @@
-<script setup>
-import { ref } from 'vue'
+<script setup></script>
 
-</script>
-
-<template>
-  <span id="open">OPEN-</span><span id="pi">&#x1D77F;</span>
-</template>
+<template><span id="open">OPEN-</span><span id="pi">&#x1D77F;</span></template>
 
 <style scoped>
-
-#open, #pi {
+#open,
+#pi {
   font-family: Metropolis;
   --font-size: 25px;
-}
-
-#pi {
 }
 </style>

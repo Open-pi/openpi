@@ -1,19 +1,18 @@
 <script setup>
-import { ref } from 'vue'
-import TextIcon from './TextIcon.vue'
+import TextIcon from "./TextIcon.vue";
 </script>
 
 <template>
   <nav class="grid-container">
     <div class="logo grid-items">
-      <span><TextIcon/></span>
+      <span><TextIcon /></span>
     </div>
 
     <a class="menu grid-items nav-item">
       <span>Home</span>
     </a>
 
-    <a class="projects grid-items nav-item" href="#members">
+    <a class="projects-link grid-items nav-item" href="#projects">
       <span>Projects</span>
     </a>
 
@@ -37,7 +36,6 @@ a {
   display: grid;
   grid-template-columns: 7fr 1fr 1fr 1fr;
   padding-right: 70px;
-
 }
 
 .grid-items {
@@ -45,7 +43,7 @@ a {
   margin-right: 10px;
 }
 
-.grid-items span{
+.grid-items span {
   margin: auto;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -53,7 +51,7 @@ a {
 
 .logo {
   text-align: left;
-  padding-left: 100px
+  padding-left: 100px;
 }
 
 .logo span {
@@ -69,9 +67,9 @@ a {
   color: black;
   transition: background-color 70ms ease-in-out;
   transition: border 70ms ease-in-out;
-  -webkit-user-select: none;  
-  -moz-user-select: none;    
-  -ms-user-select: none;      
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -80,5 +78,4 @@ a {
   background-color: var(--purple);
   border: 3px solid var(--rosequartz);
 }
-
 </style>
