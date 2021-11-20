@@ -33,7 +33,7 @@
     grid-template-columns: 7fr 6fr;
     grid-template-columns: repeat(auto-fill, 7fr 6fr);
 
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     border: solid black;
   }
   .image {
@@ -44,7 +44,7 @@
 
   img {
     border-radius: 50%;
-    width: 100px;
+    width: 200px;
   }
   .desc {
     text-align: left;
